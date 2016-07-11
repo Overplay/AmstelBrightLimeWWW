@@ -219,10 +219,6 @@ angular.module( 'ngOpTVApi', [] )
 
         return service;
 
-        //test comment
-        //test comment 2
-        //test coommment 3 
-        //test
     }
 )
 

@@ -1,14 +1,13 @@
 {
-  "appType": "crawler",
-  "name": "PubCrawler",
-  "reverseDomainName": "io.ourglass.thisisatest",
-  "buildNumber": 1,
-  "signature": "",
-  "iconLabel": "PubCrawler2",
-  "iconImage": "pub.png",
-  "publisher": "Ourglass, Inc.",
-  "show": true,
-  "primaryColor": "#1EA217",
-  "secondaryColor": "#17A271",
-  "textColor": "#FFFFFF"
+    "appId": "io.ourglass.pubcrawler",
+    "appType": "crawler",
+    "screenName": "PubCrawler",
+    "onLauncer": true,
+    "primaryColor": -16744448,
+    "primaryColorHex": "#008000",
+    "reverseDomainName": "io.ourglass.pubcrawler",
+    "secondaryColor": 0,
+    "secondaryColorHex": "#000000",
+    "icon": "pub.png",
+    "iconPath": "www/opp/io.ourglass.pubcrawler/assets/icon/pub.png"
 }

@@ -9,5 +9,7 @@
     "secondaryColor": 0,
     "secondaryColorHex": "#000000",
     "icon": "pub.png",
-    "iconPath": "www/opp/io.ourglass.pubcrawler/assets/icon/pub.png"
+    "iconPath": "www/opp/io.ourglass.pubcrawler/assets/icon/pub.png",
+    "iconImage": "www/opp/io.ourglass.pubcrawler/assets/icon/pub.png",
+    "iconLabel": "PubCrawler"
 }

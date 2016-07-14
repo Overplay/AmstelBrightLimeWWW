@@ -9,5 +9,7 @@
     "secondaryColor": 0,
     "secondaryColorHex": "#000000",
     "icon": "shuffle.png",
-    "iconPath": "www/opp/io.ourglass.shuffleboard/assets/icon/shuffle.png"
+    "iconPath": "www/opp/io.ourglass.shuffleboard/assets/icon/shuffle.png",
+    "iconImage": "www/opp/io.ourglass.shuffleboard/assets/icon/shuffle.png",
+    "iconLabel": "ShuffleBoard"
 }

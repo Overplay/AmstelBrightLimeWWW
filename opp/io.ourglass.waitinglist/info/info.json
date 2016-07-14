@@ -9,5 +9,7 @@
     "secondaryColor": 0,
     "secondaryColorHex": "#000000",
     "icon": "wl.png",
-    "iconPath": "www/opp/io.ourglass.waitinglist/assets/icon/wl.png"
+    "iconPath": "www/opp/io.ourglass.waitinglist/assets/icon/wl.png",
+    "iconImage": "www/opp/io.ourglass.waitinglist/assets/icon/wl.png",
+    "iconLabel": "Waiting List"
 }

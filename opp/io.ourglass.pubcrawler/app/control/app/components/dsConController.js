@@ -9,7 +9,7 @@ app.controller("dsConController",
         $scope.comingUpMessages = [];
         $scope.twitterQueries = [];
 
-        $scope.tabs = ['Messages', 'Coming Up'/*, 'Twitter'*/];
+        $scope.tabs = ['Messages', 'Coming Up', 'Twitter'];
 
         $scope.getSelectedTabTitle = function () {
             return $scope.tabs[$ionicTabsDelegate.selectedIndex()];
@@ -19,13 +19,13 @@ app.controller("dsConController",
         };
 
         function modelUpdate(data) {
-            if(data.messages.length != $scope.messages.length) {
+            if(data.messages && data.messages.length != $scope.messages.length) {
                 $scope.messages = data.messages || [];
             }
-            if(data.comingUpMessages.length != $scope.comingUpMessages.length) {
+            if(data.comingUpMessages && data.comingUpMessages.length != $scope.comingUpMessages.length) {
                 $scope.comingUpMessages = data.comingUpMessages || [];
             }
-            if(data.twitterQueries.length != $scope.twitterQueries.length) {
+            if(data.twitterQueries && data.twitterQueries.length != $scope.twitterQueries.length) {
                 $scope.twitterQueries = data.twitterQueries || [];
             }
         }
